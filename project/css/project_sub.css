@@ -1,0 +1,901 @@
+#login_box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form_box{
+    height: 600px;
+    width: 500px;
+    
+}
+
+#form_box h1{
+    font-size: 35px;
+    
+}
+
+#login_form{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-left: 100px;
+    box-shadow :0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#signup{
+    margin-left: 30px;
+    color:rgba(0,0,0,.26);
+
+}
+
+#error_mgs{
+    color: red;
+    
+}
+
+
+#login_form a{
+    text-decoration:none ;
+    color: #000;
+
+
+}
+
+#login_btn{
+    font-size: 10px;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    height: 40px;
+    width: 300px;
+
+    text-align: center;
+    text-decoration:none ;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 70px;
+}
+
+#login_btn:hover ,#login_btn:focus,#login_btn:active{
+    box-shadow :0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#login_form input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 25px;
+    width: 300px;
+}
+
+#login_form label{
+    font-size: 20px;
+}
+
+
+/* logout */
+
+#logout_box{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#logout_info{
+    height: 250px;
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-left: 100px;
+    box-shadow :0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#logout_info p{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+/* sign up */
+
+#signup_box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form_s{
+    padding: 20px;
+    padding-bottom: 30px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    box-shadow :0 0 20px rgba(0, 0, 0, 0.5);
+   
+}
+
+
+
+#form_s label{
+    font-size: 18px;
+
+}
+
+#form_s #addr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 60px;
+    width: 300px;
+    border: 2px solid black;
+    resize: none;
+}
+
+#form_s input,select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 25px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+
+
+#allinfo{
+    margin-left: 40px;
+}
+
+.error{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: red;
+    
+}
+
+.email,.ph,.ps,.ps_len,.age_e,.adidd{
+    display: none;
+}
+
+#signup_btn{
+    font-size: 10px;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    height: 30px;
+    width: 300px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration:none ;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* sign up successful */
+
+#succ_box{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#succ_info{
+    height: 250px;
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-left: 100px;
+    box-shadow :0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#succ_info p{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+/* cart */
+
+.cartDisplay{
+    padding-left: 70px;
+    margin-bottom: 50px;
+}
+
+.list{
+    padding: 30px;
+    padding-left: 50px;
+    width: 90%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow :0 0 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+}
+
+.cart_img{
+    max-width: 374px;
+    height: 280px;
+    float: left;
+}
+
+.p_name{
+    padding-left: 430px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 50px;
+    max-width: 850px;
+    word-wrap: break-word;
+    height: 120px;
+}
+
+.delete_btn{
+    float: right;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    height: 30px;
+    width: 90px;
+    text-align: center;
+    text-decoration:none ;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.p_price{
+    font-size: 20px;
+    padding-left: 430px;
+}
+
+.p_total{
+    font-size: 20px;
+    padding-left: 83%;
+}
+
+#all_total{
+    display: inline;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 75%;
+
+}
+
+#total_text{
+    font-size: 25px;
+    font-weight: bolder;
+    display: inline;
+}
+
+#pay{
+    margin-top: 25px;
+    margin-left: 80%;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    text-decoration:none ;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* shop */
+
+.done_box{
+    position: fixed;
+    overflow: auto;
+    z-index: 2;
+    background-color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    padding-top:300px ;
+    display: none;
+
+}
+
+.done_info{
+    text-align: center;
+    background-color: white;
+    width: 20%;
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.done_info p{
+    font-size: x-large;
+}
+
+#search_product_bar{
+    margin-left: 72%;
+    margin-bottom: 50px;
+    height: 25px;
+    width: 250px;
+}
+
+#search_product{
+    font-size: 10px;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    height: 25px;
+    width: 90px;
+    text-align: center;
+    text-decoration:none ;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* pay site */
+#pay_box{
+    margin-bottom: 50px;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 14%;
+}
+
+
+
+#cus_info{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+#pay_name_info ,#pay_email_info,#pay_phone_info{
+    display: inline;
+    font-size: larger;
+}
+
+#addr_box{
+    
+    width: 150px;
+}   
+
+#pay_addr_info{
+    font-size: larger;
+    max-width: 150px;
+    word-wrap: break-word;
+
+}
+
+.line{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-top: 2px solid black;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#pay_item table{
+    margin-bottom: 50px;
+    width: 100%;
+   
+}
+
+#pay_item td{
+  
+    padding-bottom: 30px;
+}
+
+.pay_img_box{
+    width: 350px;
+    max-height: 200px;
+    text-align: center;
+}
+
+.pay_img{
+    max-width: 330px;
+    max-height: 200px;
+}
+
+.detali{
+    display: flex;
+	flex-direction: column;
+    padding-top: 30px;
+}
+
+#pay_item tr{
+    height:237px;
+}
+
+.pay_name{
+    font-size: 21px;
+
+
+}
+
+.pay_total{
+    text-align: right;
+    font-size: 21px;
+}
+
+#place_order p{
+    font-size: 25px;
+    margin-left: 63%;
+    display: inline;
+}
+
+#place_order_btn{
+    font-size: 12px;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    height: 40px;
+    width: 130px;
+    text-align: center;
+    text-decoration:none ;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* admin login */
+
+#login_form_admin{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-left: 100px;
+    box-shadow :0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#login_form_admin input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 25px;
+    width: 300px;
+}
+
+#login_form_admin label{
+    font-size: 20px;
+}
+
+/* admin product */
+
+#product_display{
+    padding: 70px;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.p_title{
+    margin-top: 0;
+
+}
+
+.all_p_name{
+    padding-left: 430px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 50px;
+    max-width: 850px;
+    word-wrap: break-word;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.all_p_desc{
+    padding-left: 430px;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+
+.all_p_img{
+    height: 280px;
+    max-width: 374px;
+    float: left;
+}
+.all_p_qty{
+    padding-left: 430px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.out_of_stock{
+    padding-left: 430px;
+    font-size: 20px;
+    color: red;
+}
+
+.edit_btn{
+    margin-left: 25px;
+    float: right;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    height: 30px;
+    width: 90px;
+    text-align: center;
+    text-decoration:none ;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.all_add_product{
+    
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    text-decoration:none ;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#btn_yes{
+    font-size: 10px;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    height: 25px;
+    width: 51px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration:none ;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#btn_no{
+    font-size: 10px;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    height: 25px;
+    width: 51px;
+    text-align: center;
+    text-decoration:none ;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#text_outOfStock{
+    margin-right: 75%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#No_stock{
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    padding: 6px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+#No_stock::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: white;
+    content: "\f00c";
+  
+}
+
+#No_stock:checked{
+    background-color: black;
+}
+
+.mgs{
+    text-align: center;
+    font-size: 25px;
+}
+
+/* edit site */
+#edit_img{
+    height: 300px;
+    text-align: center;
+}
+
+.get_c{
+    display: flex;
+    justify-content: center;
+}
+
+#edit_info_box{
+    padding: 50px;
+    width: 600px;
+    height: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    
+}
+
+#edit_info_box label{
+    font-size: 20px;
+}
+
+.product_name, .product_price,.URL,.product_qty{
+    height: 30px;
+    width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.product_description{
+    height: 60px;
+    width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+.price_error,.not_img{
+    display: none;
+}
+
+.upload{
+    display: none;
+}
+
+.save{
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    height: 25px;
+    width: 51px;
+    text-align: center;
+    text-decoration:none ;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.download_btn{
+    margin-bottom: 20px;
+    margin-left: 69%;
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    height: 27px;
+    width: 84px;
+    text-align: center;
+    text-decoration:none ;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* admin order */
+
+#all_order_list{
+    margin-top: 50px;
+}
+
+.order_list h2{
+    margin-left: 15%;
+   
+}
+
+.order_info{
+    margin-bottom: 50px;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 14%;
+}
+
+.order_admin_cus_info{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+.order_name_info ,.order_email_info,.order_phone_info{
+    display: inline;
+    font-size: larger;
+}
+
+.order_addr_box{
+    
+    width: 150px;
+}   
+
+.order_addr_info{
+    font-size: larger;
+    max-width: 150px;
+    word-wrap: break-word;
+
+}
+
+.item table{
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.item tr {
+    height: 237px;
+}
+
+.status{
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.total_price{
+    font-size: 25px;
+    margin-left: 74%;
+}
+
+#search_order_bar{
+    margin-left: 72%;
+    height: 25px;
+    width: 250px;
+}
+
+
+/* admin acc */
+
+.acc_h{
+    padding-left: 10%;
+}
+
+#Cus_acc_box{
+    border-radius:20px ;
+    width:85% ;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#Cus_acc_box table{
+    width:100% ;
+    border-spacing: 0px;
+}
+
+#Cus_acc_box td , #Cus_acc_box th{
+    border-bottom: 1px solid #ccc;
+    border-right:1px solid #ccc ;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#Cus_acc_box td:last-child,#Cus_acc_box th:last-child{
+    border-right: none;
+}
+
+#Cus_acc_box tr:last-child td{
+    border-bottom: none;
+}
+
+.edit_btn_acc,.delete_btn_acc{
+    font-size: 10px;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    height: 27px;
+    width: 84px;
+    text-align: center;
+    text-decoration:none ;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.acc_btn{
+    width: 20%;
+}
+
+#admin_box_info{
+    margin-bottom: 50px;
+}
+
+#admin_acc_box{
+    border-radius:20px ;
+    width:85% ;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#admin_acc_box table{
+    width:100% ;
+    border-spacing: 0px;
+}
+
+#admin_acc_box td , #admin_acc_box th{
+    border-bottom: 1px solid #ccc;
+    border-right:1px solid #ccc ;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#admin_acc_box td:last-child,#admin_acc_box th:last-child{
+    border-right: none;
+}
+
+#admin_acc_box tr:last-child td{
+    border-bottom: none;
+}
+
+.s_input{
+    margin-left: 9%;
+    margin-bottom: 50px;
+    height: 25px;
+    width: 250px;
+}
+
+.s_btn{
+    margin-right: 49%;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    height: 25px;
+    width: 90px;
+    text-align: center;
+    text-decoration:none ;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
